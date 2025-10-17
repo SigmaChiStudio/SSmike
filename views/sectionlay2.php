@@ -130,7 +130,7 @@ foreach ($productos as $prod) {
             <h4>Salome Yepes</h4>
             <br>
             <a class="btn btn-dark btn-social mx-2" href="https://api.whatsapp.com/send/?phone=%2B573106853287&text&type=phone_number&app_absent=0"><i class="fa fa-paper-plane"></i></a>
-            <a class="btn btn-dark btn-social mx-2" href="0#"><i class="fab fa-instagram"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/msalocuartas?igsh=MWJwdjluYjhoejRzdQ=="><i class="fab fa-instagram"></i></a>
           </div>
         </div>
       </div>
