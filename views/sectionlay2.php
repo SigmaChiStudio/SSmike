@@ -81,72 +81,67 @@ foreach ($productos as $prod) {
   </section>
 
    <!-- NUESTRO EQUIPO -->
-<section class="page-section bg-light2" id="team">
-  <div class="container">
-    <div class="text-center">
-      <h2 class="section-heading text-uppercase">NUESTRO EQUIPO DE TRABAJO</h2>
-      <h3 class="section-subheading text-muted">"El que tenga miedo a morir que no nazca".</h3>
-    </div>
-    <div class="row">
-      <div class="col-lg-3">
-        <div class="team-member">
-          <img class="mx-auto rounded-circle" src="model/img/team/1.jpg" alt="" />
-          <h4>Valentina Gómez</h4>
-          <p class="text-muted">Líder de Proyecto</p>
-          <a class="btn btn-dark btn-social mx-2" href="#"><i class="fa fa-paper-plane"></i></a>
-          <a class="btn btn-dark btn-social mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
-          <a class="btn btn-dark btn-social mx-2" href="#"><i class="fab fa-instagram"></i></a>
+  <section class="page-section bg-light2" id="team">
+    <div class="container">
+      <div class="text-center">
+        <h2 class="section-heading text-uppercase">NUESTRO EQUIPO DE TRABAJO</h2>
+        <h3 class="section-subheading text-muted">"El que tenga miedo a morir que no nazca".</h3>
+      </div>
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="../model/img/team/1.jpg" alt="" />
+            <h4>Sofia Castro</h4>
+            <br>
+            <a class="btn btn-dark btn-social mx-2" href="https://api.whatsapp.com/send/?phone=%2B573195616976&text&type=phone_number&app_absent=0"><i class="fa fa-paper-plane"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/sofi__c28?igsh=M2RyN3Zxcmh0eHIy"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="../model/img/team/2.jpg" alt="" />
+            <h4>Mariangel Ortega</h4>
+            <br>
+            <a class="btn btn-dark btn-social mx-2" href="https://api.whatsapp.com/send/?phone=%2B573114227164&text&type=phone_number&app_absent=0"><i class="fa fa-paper-plane"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/mariangelortega_?igsh=MTBtcmFuanp0a3NhdQ=="><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="../model/img/team/3.jpg" alt="" />
+            <h4>Kevin Garcia</h4>
+            <br>
+            <a class="btn btn-dark btn-social mx-2" href="https://api.whatsapp.com/send/?phone=%2B573242417240&text&type=phone_number&app_absent=0"><i class="fa fa-paper-plane"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/kevin_g_0908?igsh=ZnZ4YXpvYXMxa3pj"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="../model/img/team/4.jpg" alt="" />
+            <h4>Erika Gmes</h4>
+            <br>
+            <a class="btn btn-dark btn-social mx-2" href="https://api.whatsapp.com/send/?phone=%2B573246261790&text&type=phone_number&app_absent=0"><i class="fa fa-paper-plane"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/erii.gms?igsh=d2JnZmJ4aG5kM2ht"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-12 d-flex justify-content-center mt-4">
+          <div class="team-member">
+            <img class="mx-auto rounded-circle" src="../model/img/team/5.jpg" alt="" />
+            <h4>Salome Yepes</h4>
+            <br>
+            <a class="btn btn-dark btn-social mx-2" href="https://api.whatsapp.com/send/?phone=%2B573106853287&text&type=phone_number&app_absent=0"><i class="fa fa-paper-plane"></i></a>
+            <a class="btn btn-dark btn-social mx-2" href="0#"><i class="fab fa-instagram"></i></a>
+          </div>
         </div>
       </div>
-      <div class="col-lg-3">
-        <div class="team-member">
-          <img class="mx-auto rounded-circle" src="model/img/team/2.jpg" alt="" />
-          <h4>Camila Torres</h4>
-          <p class="text-muted">Desarrolladora Web</p>
-          <a class="btn btn-dark btn-social mx-2" href="#"><i class="fa fa-paper-plane"></i></a>
-          <a class="btn btn-dark btn-social mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
-          <a class="btn btn-dark btn-social mx-2" href="#"><i class="fab fa-instagram"></i></a>
+      <hr>
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
+          <p class="large text-muted">“El talento crea belleza, pero la unión y la inteligencia la hacen brillar.”</p>
         </div>
-      </div>
-      <div class="col-lg-3">
-        <div class="team-member">
-          <img class="mx-auto rounded-circle" src="model/img/team/3.jpg" alt="" />
-          <h4>Juan Pérez</h4>
-          <p class="text-muted">Diseñador Gráfico</p>
-          <a class="btn btn-dark btn-social mx-2" href="#"><i class="fa fa-paper-plane"></i></a>
-          <a class="btn btn-dark btn-social mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
-          <a class="btn btn-dark btn-social mx-2" href="#"><i class="fab fa-instagram"></i></a>
-        </div>
-      </div>
-      <div class="col-lg-3">
-        <div class="team-member">
-          <img class="mx-auto rounded-circle" src="model/img/team/4.jpg" alt="" />
-          <h4>Sofía Ramírez</h4>
-          <p class="text-muted">Productora Visual</p>
-          <a class="btn btn-dark btn-social mx-2" href="#"><i class="fa fa-paper-plane"></i></a>
-          <a class="btn btn-dark btn-social mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
-          <a class="btn btn-dark btn-social mx-2" href="#"><i class="fab fa-instagram"></i></a>
-        </div>
-      </div>
-      <div class="col-lg-12 d-flex justify-content-center mt-4">
-        <div class="team-member">
-          <img class="mx-auto rounded-circle" src="model/img/team/55.jpg" alt="" />
-          <h4>Andrés Castillo</h4>
-          <p class="text-muted">Analista de Datos</p>
-          <a class="btn btn-dark btn-social mx-2" href="#"><i class="fa fa-paper-plane"></i></a>
-          <a class="btn btn-dark btn-social mx-2" href="#"><i class="fab fa-facebook-f"></i></a>
-          <a class="btn btn-dark btn-social mx-2" href="#"><i class="fab fa-instagram"></i></a>
-        </div>
-      </div>
-    </div>
-    <hr>
-    <div class="row">
-      <div class="col-lg-8 mx-auto text-center">
-        <p class="large text-muted">"El talento gana partidos, pero el trabajo en equipo y la inteligencia gana campeonatos".</p>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
   <!-- CONTACTO -->
   <section class="page-section" id="contact">

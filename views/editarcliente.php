@@ -33,8 +33,8 @@
 	<!--<div class="masthead-heading1 text-uppercase">Ssmike</div>-->
 	<form action="../controller/controllerusuario.php" class="formulario" method="get">
 
-                <h3 style="color:white;">Editar Datos del Cliente</h3>
-                <p style="color:white;">Recuerde que no es posible cambiar de ID</p>
+                <h3 style="color:#6d4c41;">Editar Datos del Cliente</h3>
+                <p style="color:#6d4c41;">Recuerde que no es posible cambiar de ID</p>
 		<div class="contendedor">
                 <div class="input-contenedor">
              <i class="fas fa-unlock-alt icon"></i>
@@ -61,7 +61,7 @@
              <input type="text" placeholder="Dirección" name="direccion" required value="<?php echo $datoscliente->direccion ?>">
 		    </div>
 		    <input type="submit" value="Actualizar Datos" name="editaradmin" class="button">
-		    <p style="color: white;">Al registrarse, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
+		    <p style="color: #6d4c41;">Al registrarse, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
 		</div>
 	   </form>
 </center>

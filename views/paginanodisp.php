@@ -26,7 +26,7 @@
     <div class="formulario">
     <div class="contenedor">
     
-    <p style="color:white;">Lo sentimos. <br>
+    <p style="color:#6d4c41;">Lo sentimos. <br>
 Esta página aún no se encuentra disponible. <br>
 Por favor contacta con nuestros asesores para más información</p>
         <a class="link" href='../views/index2.php'>Regresar</a>

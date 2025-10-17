@@ -54,7 +54,7 @@ tr:nth-child(even) {
         <div class="formulario">
         <div class="contenedor">
         
-        <p style="color:white;">Debe iniciar sesión para acceder a esta página. <br></p>
+        <p style="color:#6d4c41;">Debe iniciar sesión para acceder a esta página. <br></p>
     <a class="link" href='../views/logginadmin.php'>Iniciar Sesión.</a>
         </div>
         </div><?php
@@ -62,8 +62,8 @@ tr:nth-child(even) {
         <br><br><br>
         <div class="formulario">
         <div class="contenedor">
-        
-        <p style="color:white;">Su tiempo de Sesión ha expirado. <br>
+
+        <p style="color:#6d4c41;">Su tiempo de Sesión ha expirado. <br>
         Por favor inicie sesión de nuevo.</p>
     <a class="link" href='../views/logginadmin.php'>Iniciar Sesión.</a>
         </div>

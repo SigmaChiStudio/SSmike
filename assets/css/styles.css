@@ -143,7 +143,7 @@ sup {
    Se usa la paleta pastel y transiciones suaves.
 */
 a, .btn-link {
-  color: var(--lila);
+  color: #6d4c41cc;
   text-decoration: none;
   background: transparent;
   transition: color 0.2s;

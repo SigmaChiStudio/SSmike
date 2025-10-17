@@ -35,7 +35,7 @@ session_start();
         <div class="formulario">
         <div class="contenedor">
         
-        <p style="color:white;">Debe iniciar sesión para acceder a esta página. <br></p>
+        <p style="color:#6d4c41;">Debe iniciar sesión para acceder a esta página. <br></p>
     <a class="link" href='../views/logginadmin.php'>Iniciar Sesión.</a>
         </div>
         </div><?php
@@ -43,8 +43,8 @@ session_start();
         <br><br><br><br><br><br><br><br>
         <div class="formulario">
         <div class="contenedor">
-        
-        <p style="color:white;">Su tiempo de Sesión ha expirado. <br>
+
+        <p style="color:#6d4c41;">Su tiempo de Sesión ha expirado. <br>
         Por favor inicie sesión de nuevo.</p>
     <a class="link" href='../views/logginadmin.php'>Iniciar Sesión.</a>
         </div>
@@ -54,7 +54,7 @@ session_start();
         <div class="formulario">
         <div class="contenedor">
         
-        <p style="color:white;">Por favor seleccione que acción desea efectuar. </p><br>
+        <p style="color:#6d4c41;">Por favor seleccione que acción desea efectuar. </p><br>
     <a class="button" href='../views/listaclientes.php'>Ver Clientes</a>
     <a class="button" href='Crud.php'>Administrar productos</a>
         </div>

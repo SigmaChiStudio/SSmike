@@ -52,8 +52,8 @@
             </div>
             -->
             <input type="submit" value="Registrarse" name="registraradmin" class="button">
-            <p style="color: white;">Al registrarse, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
-            <p style="color: white;">¿Ya tienes una cuenta? <a style="color: white;" class="link" href="logginadmin.php">Iniciar sesión</a></p>
+            <p style="color: #6d4c41;">Al registrarse, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
+            <p style="color: #6d4c41;">¿Ya tienes una cuenta? <a style="color: #6d4c41;" class="link" href="logginadmin.php">Iniciar sesión</a></p>
         </div>
     </form>
 </center>

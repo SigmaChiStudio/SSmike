@@ -47,7 +47,7 @@ if (isset($_POST['registraradmin'])) {
     <br><br><br><br><br><br><br>
     <div class="formulario">
     <div class="contenedor">
-    <p style="color:white;">El correo y/o el ID que ingresó ya se encuentra registrado.<br>Por favor intente con otro correo y/o ID, o inicie sesión.</p>
+    <p style="color:#6d4c41;">El correo y/o el ID que ingresó ya se encuentra registrado.<br>Por favor intente con otro correo y/o ID, o inicie sesión.</p>
         <a class="link" href='../views/registeradmin.php'>Regresar</a> &nbsp;<a class="link" href='../views/logginadmin.php'>Iniciar Sesión</a>
     </div>
     </div>
@@ -97,7 +97,7 @@ if (isset($_POST['registraradmin'])) {
     <br><br><br><br><br><br><br>
     <div class="formulario">
     <div class="contenedor">
-    <p style="color:white;">Datos registrados con éxito.</p>
+    <p style="color:#6d4c41;">Datos registrados con éxito.</p>
     <a class="link" href='../views/logginadmin.php'>Iniciar Sesión</a>&nbsp;<a class="link" href='../views/index.html'>Continuar sin Iniciar Sesión</a>
     </div>
     </div>
@@ -142,7 +142,7 @@ if (isset($_POST['registraradmin'])) {
     <br><br><br><br><br><br><br>
     <div class="formulario">
     <div class="contenedor">
-    <p style="color:white;">No fue posible registrar sus datos. <br>Por favor valide la información e intente de nuevo.</p>
+    <p style="color:#6d4c41;">No fue posible registrar sus datos. <br>Por favor valide la información e intente de nuevo.</p>
         <a class="link" href='../views/registeradmin.php'>Regresar</a>
     </div>
     </div>
@@ -204,7 +204,7 @@ if(isset($_POST['Loginadmin'])){
     <br><br><br><br><br><br><br>
     <div class="formulario">
     <div class="contenedor">
-    <p style="color:white;">Correo incorrecto. <br></p>
+    <p style="color:#6d4c41;">Correo incorrecto. <br></p>
         <a class="link" href='../views/logginadmin.php'>Intentar de nuevo</a>
     </div>
     </div>
@@ -256,7 +256,7 @@ if(isset($_POST['Loginadmin'])){
     <br><br><br><br><br><br><br><br><br><br><br><br>
     <div class="formulario">
     <div class="contenedor">
-    <h2 style="color:white;">Bienvenido(a) <?php echo $_SESSION['name'];?><br></h2>
+    <h2 style="color:#6d4c41;">Bienvenido(a) <?php echo $_SESSION['name'];?><br></h2>
         <a class="link" href='../views/indexadmin.php'>Ir a la Página de Administrador</a>
     </div>
     </div>
@@ -301,7 +301,7 @@ if(isset($_POST['Loginadmin'])){
 <br><br><br><br><br><br><br>
 <div class="formulario">
 <div class="contenedor">
-<p style="color:white;">Correo y/o Contraseña incorrectos. <br></p>
+<p style="color:#6d4c41;">Correo y/o Contraseña incorrectos. <br></p>
     <a class="link" href='../views/logginadmin.php'>Intentar de nuevo</a>
 </div>
 </div>

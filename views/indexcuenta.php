@@ -62,7 +62,7 @@ $clientes = $consulta->fetchAll(PDO::FETCH_OBJ);
         <div class="formulario">
         <div class="contenedor">
         
-        <p style="color:white;">Debe iniciar sesión para acceder a esta página. <br></p>
+        <p style="color:#6d4c41;">Debe iniciar sesión para acceder a esta página. <br></p>
     <a class="link" href='../views/loggin.php'>Iniciar Sesión.</a>
         </div>
         </div><?php
@@ -71,7 +71,7 @@ $clientes = $consulta->fetchAll(PDO::FETCH_OBJ);
         <div class="formulario">
         <div class="contenedor">
         
-        <p style="color:white;">Su tiempo de Sesión ha expirado. <br>
+        <p style="color:#6d4c41;">Su tiempo de Sesión ha expirado. <br>
         Por favor inicie sesión de nuevo.</p>
     <a class="link" href='../views/loggin.php'>Iniciar Sesión.</a>
         </div>
@@ -91,7 +91,7 @@ $clientes = $consulta->fetchAll(PDO::FETCH_OBJ);
         <div class="formulario">
         <div class="contenedor">
         
-        <p style="color:white;">Por favor seleccione que acción desea efectuar. </p><br>
+        <p style="color:#6d4c41;">Por favor seleccione que acción desea efectuar. </p><br>
     <a class="button" href='editarDatos.php?id=<?php echo $cliente_id; ?>'>Ver Datos.</a><br>
         </div>
         </div><?php

@@ -55,7 +55,7 @@ include '../controller/carrito.php';
             <div class="formulario">
                 <div class="contenedor">
 
-                    <p style="color:white;">Debe iniciar sesión para acceder a esta página. <br></p>
+                    <p style="color:#6d4c41;">Debe iniciar sesión para acceder a esta página. <br></p>
                     <a class="link" href='../views/loggin.php'>Iniciar Sesión.</a>
                 </div>
             </div>
@@ -112,7 +112,7 @@ include '../controller/carrito.php';
             <div class="formulario">
                 <div class="contenedor">
 
-                    <p style="color:white;">Su tiempo de Sesión ha expirado. <br>
+                    <p style="color:#6d4c41;">Su tiempo de Sesión ha expirado. <br>
                         Por favor inicie sesión de nuevo.</p>
                     <a class="link" href='../views/loggin.php'>Iniciar Sesión.</a>
                 </div>

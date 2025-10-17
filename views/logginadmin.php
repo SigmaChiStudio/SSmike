@@ -31,7 +31,7 @@ require_once '../controller/conexion.php'; // o la ruta correcta
         <!--<div class="masthead-heading1 text-uppercase">Ssmike</div>-->
         <form action="../controller/controllerusuario2.php" class="formulario" method="post">
 
-            <h2 style="color:white;">Inicia Sesión como Administrador</h2>
+            <h2 style="color:#6d4c41;">Inicia Sesión como Administrador</h2>
             <div class="contendedor">
                 <div>
                     <i class="fas fa-envelope-square icon"></i>
