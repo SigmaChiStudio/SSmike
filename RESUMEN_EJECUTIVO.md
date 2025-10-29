@@ -18,12 +18,12 @@
 Documento maestro con análisis completo:
 - ✅ Análisis de 8 endpoints en `controllerusuario.php`
 - ✅ Análisis de 3 endpoints en `controllerproductos.php`
-- ✅ Análisis de validaciones en `mensaje.php`
+- ✅ Análisis de 1 endpoint en `mensaje.php` (Total: 12 endpoints)
 - ✅ Documentación de 6 medidas de seguridad implementadas
 - ✅ 15 recomendaciones de mejora priorizadas
 - ✅ Plan de implementación en 3 fases
 
-### 2. **middleware/auth.php** (5.9 KB)
+### 2. **middleware/auth.php** (5.8 KB)
 Sistema de autenticación y autorización:
 - ✅ 13 funciones de middleware
 - ✅ Gestión segura de sesiones
@@ -31,7 +31,7 @@ Sistema de autenticación y autorización:
 - ✅ Prevención de session fixation
 - ✅ Timeout automático de sesión
 
-### 3. **middleware/validation.php** (9.2 KB)
+### 3. **middleware/validation.php** (9.1 KB)
 Utilidades de validación y sanitización:
 - ✅ 22 funciones de validación
 - ✅ Sanitización de entradas
@@ -137,10 +137,10 @@ Guía completa de uso:
 
 **Recomendación:**
 ```php
-// Migrar de:
+// ❌ MAL - Vulnerable a inyección SQL:
 $conexion->query("SELECT * FROM clientes WHERE correo = '$email'");
 
-// A:
+// ✅ BIEN - Prepared statement seguro:
 $stmt = $conexion->prepare("SELECT * FROM clientes WHERE correo = ?");
 $stmt->execute([$email]);
 ```
@@ -247,7 +247,8 @@ if (!validateCsrfToken($_POST['csrf_token'])) {
 **Tarea 3.1:** Mejorar algoritmo de encriptación
 ```php
 // En config.php:
-define("COD", "AES-256-GCM"); // Más seguro que ECB
+define("COD", "AES-256-GCM"); // GCM proporciona encriptación autenticada
+                               // y previene ataques de padding oracle
 ```
 
 **Tarea 3.2:** Implementar logging de seguridad
